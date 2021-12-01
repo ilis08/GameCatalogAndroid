@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundquote"
+    tools:context=".RandomQuotes"
+    >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif"
+        android:text="Get Random Quote"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50sp"
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="100sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0B0A0A"
+        android:text="Push button to see quote."
+        android:textSize="25sp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/quote"
+        android:layout_marginTop="80sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"></TextView>
+
+
+    <Button
+        android:id="@+id/getQuoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130sp"
+        android:text="Get quote"
+        android:layout_below="@+id/author"
+        android:layout_marginTop="80sp"
+        >
+
+    </Button>
+
+</RelativeLayout>
